@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Bài tập web</title>
     <link rel="StyleSheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -18,42 +18,75 @@
     <nav>
         <ul>
             <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
+            <li><a data-section="about">About me</a></li>
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">Products</a>
+                <a href="javascript:void(0)" class="dropbtn">My album</a>
                 <div class="dropdown-content">
-                    <a data-section="link1">Link 1</a>
-                    <a data-section="link2">Link 2</a>
-                    <a data-section="link3">Link 3</a>
+                    <a data-section="link1">Photos</a>
+                    <a data-section="link2">Videos</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li style="float:right"><a href="https://www.facebook.com/profile.php?id=100028485131057">Contact me</a></a></li>
         </ul>
     </nav>
 
     <section id="home" class="hideable-section">
-        <div>Home content</div>
-    </section>
-
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
+        <div>  
+			<img src="img/avatar.jpg" /> 
+		</div>
     </section>
 
     <section id="about" class="hideable-section">
-        <div>About content</div>
+        <div>
+			 <table width="1080" height="720" text-align: center background="img/background.jpg" border="1" >
+				<tr>
+					<td>
+						Họ tên
+					</td>
+					<td>
+						Bùi Nhật Quang
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						Quê quán
+					</td>
+					<td>
+						Nam Định
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						Mã sinh viên
+					</td>
+					<td>
+						1621050629
+					</td>
+				</tr>
+			</table>
+		</div>
     </section>
 
     <section id="link1" class="hideable-section">
-        <div>Link1 content</div>
+        <div>
+			<img src="img/1.jpg" /> 
+			<img src="img/2.jpg" /> 
+			<img src="img/3.jpg" /> 
+			<img src="img/4.jpg" /> 
+			<img src="img/5.jpg" /> 
+		
+		</div>
     </section>
 
     <section id="link2" class="hideable-section">
-        <div>Link2 content</div>
+        <div>
+			<video width="1080" height="720" controls="controls">
+				<source src = "video/1.mp4" type="video/mp4"/>
+				Your browser does not support the video tag ( trình duyệt không hỗ trợ thẻ video )
+			</video> 
+		</div>
     </section>
 
-    <section id="link3" class="hideable-section">
-        <div>Link3 content</div>
-    </section>
 
     <script>
         $(function() {

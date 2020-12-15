@@ -99,3 +99,10 @@ li.dropdown {
 .hideable-section:first-of-type {
     display: block;
 }
+
+th,td {
+  text-align: center;
+  color: white;
+  bold: true;
+  background: "img/background.jpg"
+}
